@@ -1,37 +1,34 @@
-# favicon-animation
+# Favicon-Animation
+🍭 让你的网站图标ICON动起来  
+🍭 Make your website favicon to play
 
-#### 介绍
-浏览器favicon.ico动画JS脚本
+## 安装
+使用 script 标签:
+```
+<script src="fav_ani.js"></script>
+```
 
-#### 软件架构
-软件架构说明
+## 快速开始
+初始化一个FavAni对象：
+```js
+const fa = new FavAni()
+```
+初始化需要播放的内容
+```js
+// icon图标大小 32 * 32
+// 每个像素点用3位16进制数据标识 example #a3b4c5 -> abc
+// 因此每项为 32 * 32 * 3 = 3072 项
+const arr = [
+    'string1',
+    'string2',
+    'string3',
+    '...'
+]
+// 指定每帧画面的间隔时间
+const delay = 500
+// 该对象只有一个函数，将播放内容，指定帧数传入该函数，执行播放
+fa.play(arr, delay)
+```
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## 其他
+**联系作者: 85160581@qq.com** 
