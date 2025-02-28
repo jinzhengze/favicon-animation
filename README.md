@@ -17,7 +17,7 @@ const fa = new FavAni()
 ```js
 // icon图标大小 32 * 32
 // 每个像素点用3位16进制数据标识 example #a3b4c5 -> abc
-// 因此每项为 32 * 32 * 3 = 3072 项
+// 因此每项为 32 * 32 * 3 = 3072长度
 const arr = [
     'string1',
     'string2',
