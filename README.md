@@ -32,8 +32,10 @@ const delay = 500
 // 该对象只有一个函数，将播放内容，指定帧数传入该函数，执行播放
 fa.play(arr, delay)
 ```
+播放内容在线制作：  
+> 制作网站地址: [zzone小站-视频在线处理](https://zzone.cc/backstage/#/tool/videoHandle)
 
 ## 其他
-**项目演示链接: [https://zzone.cc/backstage](https://zzone.cc/backstage)** 
+> 项目演示链接: [zzone小站](https://zzone.cc/backstage)
 
-**联系作者: 85160581@qq.com** 
+**联系作者: 85160581@qq.com**
