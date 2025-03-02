@@ -36,6 +36,6 @@ fa.play(arr, delay)
 > 制作网站地址：[zzone小站-视频在线处理](https://zzone.cc/backstage/#/tool/videoHandle)
 
 ## 其他
-> 项目演示链接: [zzone小站](https://zzone.cc/backstage)
+> 项目演示链接：[zzone小站](https://zzone.cc/backstage)
 
 **联系作者：85160581@qq.com**
