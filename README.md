@@ -3,7 +3,7 @@
 🍭 Make your website favicon to play
 
 ## 安装
-使用 script 标签:
+使用 script 标签：
 ```
 <script src="fav_ani.js"></script>
 ```
@@ -33,9 +33,9 @@ const delay = 500
 fa.play(arr, delay)
 ```
 播放内容在线制作：  
-> 制作网站地址: [zzone小站-视频在线处理](https://zzone.cc/backstage/#/tool/videoHandle)
+> 制作网站地址：[zzone小站-视频在线处理](https://zzone.cc/backstage/#/tool/videoHandle)
 
 ## 其他
 > 项目演示链接: [zzone小站](https://zzone.cc/backstage)
 
-**联系作者: 85160581@qq.com**
+**联系作者：85160581@qq.com**
